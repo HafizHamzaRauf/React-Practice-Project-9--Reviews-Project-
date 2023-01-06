@@ -1,0 +1,63 @@
+.review {
+  max-width: 60rem;
+  background-color: white;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.review-img {
+  width: 15rem;
+  height: 15rem;
+  transform: scale(1.4);
+}
+.image-container {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.name {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.job {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: blue;
+}
+
+.info {
+  font-size: 2rem;
+  color: gray;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.icon {
+  color: blue;
+  background-color: white;
+  border: none;
+  font-size: 3rem;
+}
+.icon:hover {
+  color: rgb(0, 0, 172);
+  cursor: pointer;
+}
+.btn {
+  color: blue;
+  border: none;
+  background-color: aliceblue;
+  padding: 1rem 2rem;
+}
+.btn:hover {
+  cursor: pointer;
+
+  background-color: rgb(124, 124, 126);
+}

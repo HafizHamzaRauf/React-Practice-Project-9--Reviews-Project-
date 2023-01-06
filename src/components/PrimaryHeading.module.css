@@ -1,0 +1,12 @@
+.primary-heading {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 5px solid blue;
+
+  display: inline-block;
+  margin-bottom: 4rem;
+}
+
+.heading {
+  text-align: center;
+}
